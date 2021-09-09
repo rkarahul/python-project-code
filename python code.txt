@@ -1,0 +1,250 @@
+#❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️   CHAPTER-2 VARIABLES _AND_ DATE_TYPE       ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️#
+a="rahul"
+b=50
+c=85.6
+#d=true
+#d=none
+
+#💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙   print the variable : 💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙💙 #
+
+                                 #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+print(a)
+print(b)
+print(c)
+#print(d)
+
+'''                                 print the type of variabe                                              '''
+
+                                  #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+print(type(a))
+print(type(b))
+print(type(c))
+# print(type(d))
+
+
+									# 💘 operators 💘 #
+									
+								  #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+a=4
+b=3
+
+                               # 💘 Arithmetic Operators💘 #
+							   
+							    #💙💙💙💙💙💙💙💙💙💙💙💙💙💙# 
+
+print("The value of 4+3",4+3)
+print("The value of 4-3",4-3)
+print("The value of 4*3",4*3)
+print("The value of 4/3",4/3)
+
+                               # 💘 Assignment Operators💘 #
+
+                                #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#							   
+
+a=34
+a+=2
+a-=2
+a*=2
+print(a)
+
+                               # 💘 comparison Operators 💘 #
+							   
+							    #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+
+
+a=(8>9)
+a=(8>=9)
+a=(8<=9)
+a=(8==9)
+a=(8!=9)
+print(a)
+
+                               # 💘 Logical Operators 💘 # 
+							   
+							   #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+
+heart1 = True
+heart2 = False
+print("The Value of heart1 and heart2 is",(heart1 and heart2))
+print("The Value of heart1 or heart2 is", (heart1 or heart2))
+print("The Value of  not heart2 is",( not heart2))
+
+
+                                  # 💘 Type Casting 💘 #
+								  
+								 #💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+	     # 💞💞💞  Type casting is the way to convert one data type to another data type 💞💞💞💞 #
+
+#a="3456"
+a=3456
+str(a)
+#a=int(a)
+print(type(a))
+print(a+5)
+ 
+ 
+                                     # 💟 function  💟 #
+								#💙💙💙💙💙💙💙💙💙💙💙💙💙💙#
+									
+a = input(" Enter the name \n ")
+print(a)									
+								  
+#  ✬✧✬✧✬✧✬✧★✧✬✧✬✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✧✬             Practice set -2              ✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✧✬ #
+            
+	                   # ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂  Add Two Numbers ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ #
+	
+a="Love\t"
+b="You\t"
+c="Too\t"
+print("I love you Rahul\n\t\t",a + b + c)
+	
+                        # ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ Reminder ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ #
+a=5#  ✬✧✬✧✬✧✬✧★✧✬✧✬✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✧✬             Practice set -2              ✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✧✬ #
+b=2
+print("the reminder value is ",a%b)
+ 
+                       # ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂  Variable Assigned ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ #
+					   
+					   
+a=input("Enter the name\n\t")
+print(a)
+
+
+                       # ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ a is greater than b ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ #
+					  
+a=34
+b=80
+print("<<<<<<<<<<<",a>b)
+
+                       # ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂  Average of Two number ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ #
+					   
+a=input("enter the first number\n")
+b=input("enter the two number\n")
+a=int(a)
+b=int(b)
+avg=(a+b)/2
+print("the average of a and b is",avg)
+
+                        # ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ Square of  number ❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂❂ #
+						
+a=input("Enter the Number\n")
+a=int(a)
+print("The square of number",a*a)
+
+
+#  ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️         CHAPTER-3 STRINGS        ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️   #
+
+a = "Rahul"
+a = "Rahul's"  '''--> Use this if you have single quotes in your strings -->'''
+a ='Rahul"s'
+a ='''Rahul"s is a coder's'''
+print(a)
+print(type(a))
+
+
+#  ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️           STRINGS SLICING          ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️   #
+
+
+greeting = " Good Morning,"
+name = "Rahul"
+#print(tpye(Name)) 
+# concatenating two number
+add=(greeting + name)
+#print(greeting + name)
+print(add)
+
+
+heart = "dost"
+print(heart[1])
+#name[3]="r" ....> Does not work
+print(heart[0:3])
+print(heart[1:4])
+print(heart[:4])     # is same as name [0:4]
+print(heart[0:])     # is same as name [0:4]
+c = name[-4:-1]
+print(c)
+print(heart[-4:-1])  # is same as name [3:0]
+
+
+#   ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️   STRINGS SLICING  With Skip Value    ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️   #
+name = "Rahul is Good Boy" 
+a = name[0:5:2]
+a = name[0::2]
+
+print(a)
+
+
+#   ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️         STRINGS FUNCTIONS  ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ 
+
+story = ("hy I am Rahul,I shall being a coder in the future")
+#String Functions
+
+print(len(story))
+
+
+print(story.endswith("future"))
+print(story.endswith("zero"))
+
+
+
+print(story.count("a"))
+
+print(story.capitalize())
+
+print(story.find("future"))
+
+print(story.replace("Rahul","code with Rahul"))
+
+# Escape_Sequences
+story = "Rahul is Good.\n\t\t He is very Good "
+story = "Rahul is Good.\n He is very Good "
+story = "Rahul is Good.\n\t\t He is ver\\y Good "
+print(story)
+
+
+
+ 
+#  ✬✧✬✧✬✧✬✧★✧✬✧✬✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✧✬             Practice set -3             ✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✬✧✬✧✬✧✬✧★✧✬✧✬✧✬✧✬ #
+
+
+# ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕             User Enter Name             ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕
+
+name = input("enter the name\n")
+name = "Good Morning"
+print(name)
+
+
+# ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕  Letter Template date and time        ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕
+						
+
+letter = '''Dear <|NAME|>,
+                         You are selected in your examination
+						 Tq So Much Sir,
+						 <|DATE|>'''
+name = input("Enter the Name\n")
+date = input("Enter the Date\n")
+letter = letter.replace("<|NAME|>",name)
+letter = letter.replace("<|DATE|>",date)
+print(letter)
+
+
+# ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕   Double space in string             ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕ 
+
+st = "I am a  coder"
+st = st.find("  ")	
+print(st)
+
+# ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕  Double space replce triple in string        ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕
+
+
+st = "I am rahul,learn for   coding"
+st = st.replace("  "," ")
+print(st)
+
+# ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕ Scape Squence Characters using letter  ♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕♕
+
+
+letter = "Dear Rahul,This Pthyon course is NYC.thanks!"
+print(letter)
+formatted_letter ="Dear Rahul,\n\t\tThis Pthyon course is NYC.\nthanks!"
+print(formatted_letter)
